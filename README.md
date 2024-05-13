@@ -74,7 +74,7 @@ The repository contains the following folders:
 ## Reproduction
 You can reproduce the results from scratch. We provide a step-by-step guide on how to reproduce the  results.
 
-We obtain the ML performance and fairness metric values obtained by our approach MAAT (`MAAT/maat.py`). `maat.py` supports three arguments: `-d` configures the dataset; `-c` configures the ML algorithm; `-p` configures the protected attribute.
+We obtain the ML performance and fairness metric values obtained by our approach, MirrorFair (`code/MirrorFair.py`). `MirrorFair.py` supports three arguments: `-d` configures the dataset; `-c` configures the ML algorithm; `-p` configures the protected attribute.
 ```
 cd code
 python MirrorFair.py -d adult -c lr -p sex
